@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AnimView</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_strock">边框模式</string>
+    <string name="action_fill">填充模式</string>
+</resources>
