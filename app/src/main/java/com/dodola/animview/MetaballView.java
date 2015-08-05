@@ -276,9 +276,8 @@ public class MetaballView extends View {
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        widthMeasureSpec = MeasureSpec.makeMeasureSpec((int) (ITEM_COUNT * (radius * 2 + ITEM_DIVIDER)), MeasureSpec.EXACTLY);
-        heightMeasureSpec = MeasureSpec.makeMeasureSpec((int) (2 * radius * 1.4f), MeasureSpec.EXACTLY);
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+        setMeasuredDimension(resolveSizeAndState((int) (ITEM_COUNT * (radius * 2 + ITEM_DIVIDER)), widthMeasureSpec, 0),
+                resolveSizeAndState((int) (2 * radius * 1.4f), heightMeasureSpec, 0));
     }
 
 
@@ -318,5 +317,4 @@ public class MetaballView extends View {
         stopAnimation();
         super.onDetachedFromWindow();
     }
-
 }

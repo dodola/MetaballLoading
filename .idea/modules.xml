@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AnimView.iml" filepath="$PROJECT_DIR$/AnimView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MetaballLoading.iml" filepath="$PROJECT_DIR$/MetaballLoading.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

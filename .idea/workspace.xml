@@ -5,12 +5,9 @@
       <config />
     </shared>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee62121e-79e6-405c-992b-f932b765f7ea" name="Default" comment="" />
-    <ignored path="AnimView.iws" />
+    <list default="true" id="fbfa3a72-a876-49f6-9b9f-1fc2ae1cab2f" name="Default" comment="" />
+    <ignored path="MetaballLoading.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,74 +17,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="CodeExplorer">
-    <option name="filters">
-      <list>
-        <LibraryFilter />
-      </list>
-    </option>
-    <option name="showMethodBody" value="true" />
-  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <PATH>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="AnimView" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
-              </PATH_ELEMENT>
-            </PATH>
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
   <component name="FavoritesManager">
-    <favorites_list name="AnimView" />
+    <favorites_list name="MetaballLoading" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="MetaballView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MetaballView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.1548223">
-              <caret line="149" column="32" selection-start-line="149" selection-start-column="32" selection-end-line="149" selection-end-column="32" />
-              <folding>
-                <element signature="e#8213#8214#0" expanded="true" />
-                <element signature="e#8280#8281#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-              <folding>
-                <element signature="e#315#336#0" expanded="true" />
-                <element signature="e#483#506#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.4444444">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.2724551">
+              <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -97,116 +40,75 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-              <folding />
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProgressBar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/widget/ProgressBar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1692" column="0" selection-start-line="1692" selection-start-column="0" selection-end-line="1693" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#68001#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#9852#9853#0" expanded="false" />
+                <element signature="e#9887#9888#0" expanded="false" />
+                <element signature="e#20801#20802#0" expanded="false" />
+                <element signature="e#20838#20839#0" expanded="false" />
+                <element signature="e#22195#22196#0" expanded="false" />
+                <element signature="e#22240#22241#0" expanded="false" />
+                <element signature="e#27904#27905#0" expanded="false" />
+                <element signature="e#27944#27945#0" expanded="false" />
+                <element signature="e#44046#44047#0" expanded="false" />
+                <element signature="e#44085#44086#0" expanded="false" />
+                <element signature="e#46411#46412#0" expanded="false" />
+                <element signature="e#46454#46455#0" expanded="false" />
+                <element signature="e#49267#49268#0" expanded="false" />
+                <element signature="e#49311#49312#0" expanded="false" />
+                <element signature="e#51227#51228#0" expanded="false" />
+                <element signature="e#51280#51281#0" expanded="false" />
+                <element signature="e#52168#52169#0" expanded="false" />
+                <element signature="e#52195#52196#0" expanded="false" />
+                <element signature="e#53103#53104#0" expanded="false" />
+                <element signature="e#53148#53149#0" expanded="false" />
+                <element signature="e#55747#55748#0" expanded="false" />
+                <element signature="e#55791#55792#0" expanded="false" />
+                <element signature="e#56001#56002#0" expanded="false" />
+                <element signature="e#56037#56038#0" expanded="false" />
+                <element signature="e#57512#57513#0" expanded="false" />
+                <element signature="e#57554#57555#0" expanded="false" />
+                <element signature="e#62953#62954#0" expanded="false" />
+                <element signature="e#62994#62995#0" expanded="false" />
+                <element signature="e#63634#63635#0" expanded="false" />
+                <element signature="e#63691#63692#0" expanded="false" />
+                <element signature="e#63745#63746#0" expanded="false" />
+                <element signature="e#63804#63805#0" expanded="false" />
+                <element signature="e#67128#67129#0" expanded="false" />
+                <element signature="e#67213#67214#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.172414">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
+          <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Paint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/graphics/Paint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="962" column="0" selection-start-line="962" selection-start-column="0" selection-end-line="962" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#84539#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#10399#10400#0" expanded="false" />
-                <element signature="e#10449#10450#0" expanded="false" />
-                <element signature="e#11096#11097#0" expanded="false" />
-                <element signature="e#11146#11147#0" expanded="false" />
-                <element signature="e#11702#11703#0" expanded="false" />
-                <element signature="e#11752#11753#0" expanded="false" />
-                <element signature="e#12306#12307#0" expanded="false" />
-                <element signature="e#12356#12357#0" expanded="false" />
-                <element signature="e#12478#12479#0" expanded="false" />
-                <element signature="e#12501#12502#0" expanded="false" />
-                <element signature="e#16305#16306#0" expanded="false" />
-                <element signature="e#16338#16339#0" expanded="false" />
-                <element signature="e#17848#17849#0" expanded="false" />
-                <element signature="e#17906#17907#0" expanded="false" />
-                <element signature="e#18866#18867#0" expanded="false" />
-                <element signature="e#18920#18921#0" expanded="false" />
-                <element signature="e#19683#19684#0" expanded="false" />
-                <element signature="e#19742#19743#0" expanded="false" />
-                <element signature="e#20235#20236#0" expanded="false" />
-                <element signature="e#20296#20297#0" expanded="false" />
-                <element signature="e#20809#20810#0" expanded="false" />
-                <element signature="e#20871#20872#0" expanded="false" />
-                <element signature="e#21394#21395#0" expanded="false" />
-                <element signature="e#21458#21459#0" expanded="false" />
-                <element signature="e#21982#21983#0" expanded="false" />
-                <element signature="e#22044#22045#0" expanded="false" />
-                <element signature="e#22739#22740#0" expanded="false" />
-                <element signature="e#22800#22801#0" expanded="false" />
-                <element signature="e#23599#23600#0" expanded="false" />
-                <element signature="e#23664#23665#0" expanded="false" />
-                <element signature="e#23942#23943#0" expanded="false" />
-                <element signature="e#24004#24005#0" expanded="false" />
-                <element signature="e#27654#27655#0" expanded="false" />
-                <element signature="e#27721#27722#0" expanded="false" />
-                <element signature="e#27941#27942#0" expanded="false" />
-                <element signature="e#28005#28006#0" expanded="false" />
-                <element signature="e#28140#28141#0" expanded="false" />
-                <element signature="e#28209#28210#0" expanded="false" />
-                <element signature="e#28425#28426#0" expanded="false" />
-                <element signature="e#28491#28492#0" expanded="false" />
-                <element signature="e#29256#29257#0" expanded="false" />
-                <element signature="e#29286#29287#0" expanded="false" />
-                <element signature="e#30020#30021#0" expanded="false" />
-                <element signature="e#30055#30056#0" expanded="false" />
-                <element signature="e#30690#30691#0" expanded="false" />
-                <element signature="e#30722#30723#0" expanded="false" />
-                <element signature="e#31467#31468#0" expanded="false" />
-                <element signature="e#31501#31502#0" expanded="false" />
-                <element signature="e#32252#32253#0" expanded="false" />
-                <element signature="e#32286#32287#0" expanded="false" />
-                <element signature="e#33206#33207#0" expanded="false" />
-                <element signature="e#33238#33239#0" expanded="false" />
-                <element signature="e#34246#34247#0" expanded="false" />
-                <element signature="e#34280#34281#0" expanded="false" />
-                <element signature="e#35827#35828#0" expanded="false" />
-                <element signature="e#35869#35870#0" expanded="false" />
-                <element signature="e#36080#36081#0" expanded="false" />
-                <element signature="e#36136#36137#0" expanded="false" />
-                <element signature="e#36538#36539#0" expanded="false" />
-                <element signature="e#36607#36608#0" expanded="false" />
-                <element signature="e#37011#37012#0" expanded="false" />
-                <element signature="e#37077#37078#0" expanded="false" />
-                <element signature="e#37234#37235#0" expanded="false" />
-                <element signature="e#37264#37265#0" expanded="false" />
-                <element signature="e#41099#41100#0" expanded="false" />
-                <element signature="e#41159#41160#0" expanded="false" />
-                <element signature="e#41773#41774#0" expanded="false" />
-                <element signature="e#41816#41817#0" expanded="false" />
-                <element signature="e#46469#46470#0" expanded="false" />
-                <element signature="e#46512#46513#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -214,7 +116,7 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="AnimView" />
+              <option name="name" value="MetaballLoading" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
@@ -225,7 +127,7 @@
                 <option name="path" value="$PROJECT_DIR$/app" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="AnimView" />
+                <option name="name" value="MetaballLoading" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
@@ -239,17 +141,17 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'AnimView'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'MetaballLoading'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'AnimView'." />
+                <option name="description" value="Displays all dependencies declared in root project 'MetaballLoading'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'AnimView'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'MetaballLoading'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -264,22 +166,22 @@
                 <option name="name" value="init" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'AnimView'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'MetaballLoading'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'AnimView'." />
+                <option name="description" value="Displays the sub-projects of root project 'MetaballLoading'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'AnimView'." />
+                <option name="description" value="Displays the properties of root project 'MetaballLoading'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'AnimView' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'MetaballLoading' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -1638,13 +1540,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dodola/animview/b.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dodola/animview/GifBiuProView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dodola/animview/Metaball.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MetaballViewTest.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MetaballView.java" />
       </list>
     </option>
@@ -1662,7 +1560,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="820" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -1687,53 +1585,31 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AnimView" />
+              <option name="myItemId" value="MetaballLoading" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AnimView" />
+              <option name="myItemId" value="MetaballLoading" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AnimView" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnimView" />
+              <option name="myItemId" value="MetaballLoading" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1747,7 +1623,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AnimView" />
+              <option name="myItemId" value="MetaballLoading" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1763,22 +1639,8 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnimView" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1792,17 +1654,14 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="NX505J" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="gn4" />
-    <property name="FullScreen" value="false" />
-    <property name="DEBUGGABLE_DEVICE" value="xiaomi-mi_4lte-225a614c" />
-    <property name="DEBUGGABLE_PROCESS" value="com.dodola.animview" />
-    <property name="SHOW_ALL_PROCESSES" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dodola.animview" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1996,43 +1855,42 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ee62121e-79e6-405c-992b-f932b765f7ea" name="Default" comment="" />
-      <created>1437556388309</created>
+      <changelist id="fbfa3a72-a876-49f6-9b9f-1fc2ae1cab2f" name="Default" comment="" />
+      <created>1438666338830</created>
       <option name="number" value="Default" />
-      <updated>1437556388309</updated>
+      <updated>1438666338830</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="820" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39914772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4005682" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Code explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2048,511 +1906,94 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MetaballView.java</url>
-          <line>125</line>
-          <properties />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MetaballView.java</url>
-          <line>238</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="3" />
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="app">
-        <watch expression="d &lt;= Math.abs(radius1 - radius2)" />
-        <watch expression="d &gt; maxDistance" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MetaballView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="278" column="29" selection-start-line="278" selection-start-column="29" selection-end-line="278" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/graphics/Paint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="962" column="0" selection-start-line="962" selection-start-column="0" selection-end-line="962" selection-end-column="0" />
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <element signature="e#0#84539#0" expanded="false" />
             <element signature="imports" expanded="false" />
-            <element signature="e#10399#10400#0" expanded="false" />
-            <element signature="e#10449#10450#0" expanded="false" />
-            <element signature="e#11096#11097#0" expanded="false" />
-            <element signature="e#11146#11147#0" expanded="false" />
-            <element signature="e#11702#11703#0" expanded="false" />
-            <element signature="e#11752#11753#0" expanded="false" />
-            <element signature="e#12306#12307#0" expanded="false" />
-            <element signature="e#12356#12357#0" expanded="false" />
-            <element signature="e#12478#12479#0" expanded="false" />
-            <element signature="e#12501#12502#0" expanded="false" />
-            <element signature="e#16305#16306#0" expanded="false" />
-            <element signature="e#16338#16339#0" expanded="false" />
-            <element signature="e#17848#17849#0" expanded="false" />
-            <element signature="e#17906#17907#0" expanded="false" />
-            <element signature="e#18866#18867#0" expanded="false" />
-            <element signature="e#18920#18921#0" expanded="false" />
-            <element signature="e#19683#19684#0" expanded="false" />
-            <element signature="e#19742#19743#0" expanded="false" />
-            <element signature="e#20235#20236#0" expanded="false" />
-            <element signature="e#20296#20297#0" expanded="false" />
-            <element signature="e#20809#20810#0" expanded="false" />
-            <element signature="e#20871#20872#0" expanded="false" />
-            <element signature="e#21394#21395#0" expanded="false" />
-            <element signature="e#21458#21459#0" expanded="false" />
-            <element signature="e#21982#21983#0" expanded="false" />
-            <element signature="e#22044#22045#0" expanded="false" />
-            <element signature="e#22739#22740#0" expanded="false" />
-            <element signature="e#22800#22801#0" expanded="false" />
-            <element signature="e#23599#23600#0" expanded="false" />
-            <element signature="e#23664#23665#0" expanded="false" />
-            <element signature="e#23942#23943#0" expanded="false" />
-            <element signature="e#24004#24005#0" expanded="false" />
-            <element signature="e#27654#27655#0" expanded="false" />
-            <element signature="e#27721#27722#0" expanded="false" />
-            <element signature="e#27941#27942#0" expanded="false" />
-            <element signature="e#28005#28006#0" expanded="false" />
-            <element signature="e#28140#28141#0" expanded="false" />
-            <element signature="e#28209#28210#0" expanded="false" />
-            <element signature="e#28425#28426#0" expanded="false" />
-            <element signature="e#28491#28492#0" expanded="false" />
-            <element signature="e#29256#29257#0" expanded="false" />
-            <element signature="e#29286#29287#0" expanded="false" />
-            <element signature="e#30020#30021#0" expanded="false" />
-            <element signature="e#30055#30056#0" expanded="false" />
-            <element signature="e#30690#30691#0" expanded="false" />
-            <element signature="e#30722#30723#0" expanded="false" />
-            <element signature="e#31467#31468#0" expanded="false" />
-            <element signature="e#31501#31502#0" expanded="false" />
-            <element signature="e#32252#32253#0" expanded="false" />
-            <element signature="e#32286#32287#0" expanded="false" />
-            <element signature="e#33206#33207#0" expanded="false" />
-            <element signature="e#33238#33239#0" expanded="false" />
-            <element signature="e#34246#34247#0" expanded="false" />
-            <element signature="e#34280#34281#0" expanded="false" />
-            <element signature="e#35827#35828#0" expanded="false" />
-            <element signature="e#35869#35870#0" expanded="false" />
-            <element signature="e#36080#36081#0" expanded="false" />
-            <element signature="e#36136#36137#0" expanded="false" />
-            <element signature="e#36538#36539#0" expanded="false" />
-            <element signature="e#36607#36608#0" expanded="false" />
-            <element signature="e#37011#37012#0" expanded="false" />
-            <element signature="e#37077#37078#0" expanded="false" />
-            <element signature="e#37234#37235#0" expanded="false" />
-            <element signature="e#37264#37265#0" expanded="false" />
-            <element signature="e#41099#41100#0" expanded="false" />
-            <element signature="e#41159#41160#0" expanded="false" />
-            <element signature="e#41773#41774#0" expanded="false" />
-            <element signature="e#41816#41817#0" expanded="false" />
-            <element signature="e#46469#46470#0" expanded="false" />
-            <element signature="e#46512#46513#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MetaballView.java">
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/widget/ProgressBar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="281" column="42" selection-start-line="281" selection-start-column="42" selection-end-line="281" selection-end-column="42" />
+          <caret line="1692" column="0" selection-start-line="1692" selection-start-column="0" selection-end-line="1693" selection-end-column="63" />
           <folding>
-            <element signature="e#8213#8214#0" expanded="true" />
-            <element signature="e#8280#8281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/graphics/Paint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="962" column="0" selection-start-line="962" selection-start-column="0" selection-end-line="962" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#84539#0" expanded="false" />
+            <element signature="e#0#68001#0" expanded="false" />
             <element signature="imports" expanded="false" />
-            <element signature="e#10399#10400#0" expanded="false" />
-            <element signature="e#10449#10450#0" expanded="false" />
-            <element signature="e#11096#11097#0" expanded="false" />
-            <element signature="e#11146#11147#0" expanded="false" />
-            <element signature="e#11702#11703#0" expanded="false" />
-            <element signature="e#11752#11753#0" expanded="false" />
-            <element signature="e#12306#12307#0" expanded="false" />
-            <element signature="e#12356#12357#0" expanded="false" />
-            <element signature="e#12478#12479#0" expanded="false" />
-            <element signature="e#12501#12502#0" expanded="false" />
-            <element signature="e#16305#16306#0" expanded="false" />
-            <element signature="e#16338#16339#0" expanded="false" />
-            <element signature="e#17848#17849#0" expanded="false" />
-            <element signature="e#17906#17907#0" expanded="false" />
-            <element signature="e#18866#18867#0" expanded="false" />
-            <element signature="e#18920#18921#0" expanded="false" />
-            <element signature="e#19683#19684#0" expanded="false" />
-            <element signature="e#19742#19743#0" expanded="false" />
-            <element signature="e#20235#20236#0" expanded="false" />
-            <element signature="e#20296#20297#0" expanded="false" />
-            <element signature="e#20809#20810#0" expanded="false" />
-            <element signature="e#20871#20872#0" expanded="false" />
-            <element signature="e#21394#21395#0" expanded="false" />
-            <element signature="e#21458#21459#0" expanded="false" />
-            <element signature="e#21982#21983#0" expanded="false" />
-            <element signature="e#22044#22045#0" expanded="false" />
-            <element signature="e#22739#22740#0" expanded="false" />
-            <element signature="e#22800#22801#0" expanded="false" />
-            <element signature="e#23599#23600#0" expanded="false" />
-            <element signature="e#23664#23665#0" expanded="false" />
-            <element signature="e#23942#23943#0" expanded="false" />
-            <element signature="e#24004#24005#0" expanded="false" />
-            <element signature="e#27654#27655#0" expanded="false" />
-            <element signature="e#27721#27722#0" expanded="false" />
-            <element signature="e#27941#27942#0" expanded="false" />
-            <element signature="e#28005#28006#0" expanded="false" />
-            <element signature="e#28140#28141#0" expanded="false" />
-            <element signature="e#28209#28210#0" expanded="false" />
-            <element signature="e#28425#28426#0" expanded="false" />
-            <element signature="e#28491#28492#0" expanded="false" />
-            <element signature="e#29256#29257#0" expanded="false" />
-            <element signature="e#29286#29287#0" expanded="false" />
-            <element signature="e#30020#30021#0" expanded="false" />
-            <element signature="e#30055#30056#0" expanded="false" />
-            <element signature="e#30690#30691#0" expanded="false" />
-            <element signature="e#30722#30723#0" expanded="false" />
-            <element signature="e#31467#31468#0" expanded="false" />
-            <element signature="e#31501#31502#0" expanded="false" />
-            <element signature="e#32252#32253#0" expanded="false" />
-            <element signature="e#32286#32287#0" expanded="false" />
-            <element signature="e#33206#33207#0" expanded="false" />
-            <element signature="e#33238#33239#0" expanded="false" />
-            <element signature="e#34246#34247#0" expanded="false" />
-            <element signature="e#34280#34281#0" expanded="false" />
-            <element signature="e#35827#35828#0" expanded="false" />
-            <element signature="e#35869#35870#0" expanded="false" />
-            <element signature="e#36080#36081#0" expanded="false" />
-            <element signature="e#36136#36137#0" expanded="false" />
-            <element signature="e#36538#36539#0" expanded="false" />
-            <element signature="e#36607#36608#0" expanded="false" />
-            <element signature="e#37011#37012#0" expanded="false" />
-            <element signature="e#37077#37078#0" expanded="false" />
-            <element signature="e#37234#37235#0" expanded="false" />
-            <element signature="e#37264#37265#0" expanded="false" />
-            <element signature="e#41099#41100#0" expanded="false" />
-            <element signature="e#41159#41160#0" expanded="false" />
-            <element signature="e#41773#41774#0" expanded="false" />
-            <element signature="e#41816#41817#0" expanded="false" />
-            <element signature="e#46469#46470#0" expanded="false" />
-            <element signature="e#46512#46513#0" expanded="false" />
+            <element signature="e#9852#9853#0" expanded="false" />
+            <element signature="e#9887#9888#0" expanded="false" />
+            <element signature="e#20801#20802#0" expanded="false" />
+            <element signature="e#20838#20839#0" expanded="false" />
+            <element signature="e#22195#22196#0" expanded="false" />
+            <element signature="e#22240#22241#0" expanded="false" />
+            <element signature="e#27904#27905#0" expanded="false" />
+            <element signature="e#27944#27945#0" expanded="false" />
+            <element signature="e#44046#44047#0" expanded="false" />
+            <element signature="e#44085#44086#0" expanded="false" />
+            <element signature="e#46411#46412#0" expanded="false" />
+            <element signature="e#46454#46455#0" expanded="false" />
+            <element signature="e#49267#49268#0" expanded="false" />
+            <element signature="e#49311#49312#0" expanded="false" />
+            <element signature="e#51227#51228#0" expanded="false" />
+            <element signature="e#51280#51281#0" expanded="false" />
+            <element signature="e#52168#52169#0" expanded="false" />
+            <element signature="e#52195#52196#0" expanded="false" />
+            <element signature="e#53103#53104#0" expanded="false" />
+            <element signature="e#53148#53149#0" expanded="false" />
+            <element signature="e#55747#55748#0" expanded="false" />
+            <element signature="e#55791#55792#0" expanded="false" />
+            <element signature="e#56001#56002#0" expanded="false" />
+            <element signature="e#56037#56038#0" expanded="false" />
+            <element signature="e#57512#57513#0" expanded="false" />
+            <element signature="e#57554#57555#0" expanded="false" />
+            <element signature="e#62953#62954#0" expanded="false" />
+            <element signature="e#62994#62995#0" expanded="false" />
+            <element signature="e#63634#63635#0" expanded="false" />
+            <element signature="e#63691#63692#0" expanded="false" />
+            <element signature="e#63745#63746#0" expanded="false" />
+            <element signature="e#63804#63805#0" expanded="false" />
+            <element signature="e#67128#67129#0" expanded="false" />
+            <element signature="e#67213#67214#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MetaballView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#8213#8214#0" expanded="true" />
-            <element signature="e#8280#8281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MetaballView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#8213#8214#0" expanded="true" />
-            <element signature="e#8280#8281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MetaballView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#8213#8214#0" expanded="true" />
-            <element signature="e#8280#8281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MetaballView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#8213#8214#0" expanded="true" />
-            <element signature="e#8280#8281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MetaballView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#8213#8214#0" expanded="true" />
-            <element signature="e#8280#8281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/graphics/Canvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1179" column="35" selection-start-line="1179" selection-start-column="33" selection-end-line="1179" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/transition/CircularPropagation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1923077">
-          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/graphics/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/graphics/PointF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4807693">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/graphics/Canvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1179" column="35" selection-start-line="1179" selection-start-column="33" selection-end-line="1179" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17307693">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/graphics/drawable/shapes/PathShape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03846154">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/graphics/Path.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
-          <folding>
-            <element signature="e#4200#4201#0" expanded="false" />
-            <element signature="e#4241#4242#0" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29046562">
-          <caret line="7713" column="0" selection-start-line="7713" selection-start-column="0" selection-end-line="7713" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/graphics/Paint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="962" column="0" selection-start-line="962" selection-start-column="0" selection-end-line="962" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#84539#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#10399#10400#0" expanded="false" />
-            <element signature="e#10449#10450#0" expanded="false" />
-            <element signature="e#11096#11097#0" expanded="false" />
-            <element signature="e#11146#11147#0" expanded="false" />
-            <element signature="e#11702#11703#0" expanded="false" />
-            <element signature="e#11752#11753#0" expanded="false" />
-            <element signature="e#12306#12307#0" expanded="false" />
-            <element signature="e#12356#12357#0" expanded="false" />
-            <element signature="e#12478#12479#0" expanded="false" />
-            <element signature="e#12501#12502#0" expanded="false" />
-            <element signature="e#16305#16306#0" expanded="false" />
-            <element signature="e#16338#16339#0" expanded="false" />
-            <element signature="e#17848#17849#0" expanded="false" />
-            <element signature="e#17906#17907#0" expanded="false" />
-            <element signature="e#18866#18867#0" expanded="false" />
-            <element signature="e#18920#18921#0" expanded="false" />
-            <element signature="e#19683#19684#0" expanded="false" />
-            <element signature="e#19742#19743#0" expanded="false" />
-            <element signature="e#20235#20236#0" expanded="false" />
-            <element signature="e#20296#20297#0" expanded="false" />
-            <element signature="e#20809#20810#0" expanded="false" />
-            <element signature="e#20871#20872#0" expanded="false" />
-            <element signature="e#21394#21395#0" expanded="false" />
-            <element signature="e#21458#21459#0" expanded="false" />
-            <element signature="e#21982#21983#0" expanded="false" />
-            <element signature="e#22044#22045#0" expanded="false" />
-            <element signature="e#22739#22740#0" expanded="false" />
-            <element signature="e#22800#22801#0" expanded="false" />
-            <element signature="e#23599#23600#0" expanded="false" />
-            <element signature="e#23664#23665#0" expanded="false" />
-            <element signature="e#23942#23943#0" expanded="false" />
-            <element signature="e#24004#24005#0" expanded="false" />
-            <element signature="e#27654#27655#0" expanded="false" />
-            <element signature="e#27721#27722#0" expanded="false" />
-            <element signature="e#27941#27942#0" expanded="false" />
-            <element signature="e#28005#28006#0" expanded="false" />
-            <element signature="e#28140#28141#0" expanded="false" />
-            <element signature="e#28209#28210#0" expanded="false" />
-            <element signature="e#28425#28426#0" expanded="false" />
-            <element signature="e#28491#28492#0" expanded="false" />
-            <element signature="e#29256#29257#0" expanded="false" />
-            <element signature="e#29286#29287#0" expanded="false" />
-            <element signature="e#30020#30021#0" expanded="false" />
-            <element signature="e#30055#30056#0" expanded="false" />
-            <element signature="e#30690#30691#0" expanded="false" />
-            <element signature="e#30722#30723#0" expanded="false" />
-            <element signature="e#31467#31468#0" expanded="false" />
-            <element signature="e#31501#31502#0" expanded="false" />
-            <element signature="e#32252#32253#0" expanded="false" />
-            <element signature="e#32286#32287#0" expanded="false" />
-            <element signature="e#33206#33207#0" expanded="false" />
-            <element signature="e#33238#33239#0" expanded="false" />
-            <element signature="e#34246#34247#0" expanded="false" />
-            <element signature="e#34280#34281#0" expanded="false" />
-            <element signature="e#35827#35828#0" expanded="false" />
-            <element signature="e#35869#35870#0" expanded="false" />
-            <element signature="e#36080#36081#0" expanded="false" />
-            <element signature="e#36136#36137#0" expanded="false" />
-            <element signature="e#36538#36539#0" expanded="false" />
-            <element signature="e#36607#36608#0" expanded="false" />
-            <element signature="e#37011#37012#0" expanded="false" />
-            <element signature="e#37077#37078#0" expanded="false" />
-            <element signature="e#37234#37235#0" expanded="false" />
-            <element signature="e#37264#37265#0" expanded="false" />
-            <element signature="e#41099#41100#0" expanded="false" />
-            <element signature="e#41159#41160#0" expanded="false" />
-            <element signature="e#41773#41774#0" expanded="false" />
-            <element signature="e#41816#41817#0" expanded="false" />
-            <element signature="e#46469#46470#0" expanded="false" />
-            <element signature="e#46512#46513#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4444444">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.41017964">
+          <caret line="17705" column="27" selection-start-line="17705" selection-start-column="27" selection-end-line="17705" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -2560,41 +2001,74 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-          <folding />
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml">
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/widget/ProgressBar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <caret line="1692" column="0" selection-start-line="1692" selection-start-column="0" selection-end-line="1693" selection-end-column="63" />
           <folding>
-            <element signature="e#315#336#0" expanded="true" />
-            <element signature="e#483#506#0" expanded="true" />
+            <element signature="e#0#68001#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#9852#9853#0" expanded="false" />
+            <element signature="e#9887#9888#0" expanded="false" />
+            <element signature="e#20801#20802#0" expanded="false" />
+            <element signature="e#20838#20839#0" expanded="false" />
+            <element signature="e#22195#22196#0" expanded="false" />
+            <element signature="e#22240#22241#0" expanded="false" />
+            <element signature="e#27904#27905#0" expanded="false" />
+            <element signature="e#27944#27945#0" expanded="false" />
+            <element signature="e#44046#44047#0" expanded="false" />
+            <element signature="e#44085#44086#0" expanded="false" />
+            <element signature="e#46411#46412#0" expanded="false" />
+            <element signature="e#46454#46455#0" expanded="false" />
+            <element signature="e#49267#49268#0" expanded="false" />
+            <element signature="e#49311#49312#0" expanded="false" />
+            <element signature="e#51227#51228#0" expanded="false" />
+            <element signature="e#51280#51281#0" expanded="false" />
+            <element signature="e#52168#52169#0" expanded="false" />
+            <element signature="e#52195#52196#0" expanded="false" />
+            <element signature="e#53103#53104#0" expanded="false" />
+            <element signature="e#53148#53149#0" expanded="false" />
+            <element signature="e#55747#55748#0" expanded="false" />
+            <element signature="e#55791#55792#0" expanded="false" />
+            <element signature="e#56001#56002#0" expanded="false" />
+            <element signature="e#56037#56038#0" expanded="false" />
+            <element signature="e#57512#57513#0" expanded="false" />
+            <element signature="e#57554#57555#0" expanded="false" />
+            <element signature="e#62953#62954#0" expanded="false" />
+            <element signature="e#62994#62995#0" expanded="false" />
+            <element signature="e#63634#63635#0" expanded="false" />
+            <element signature="e#63691#63692#0" expanded="false" />
+            <element signature="e#63745#63746#0" expanded="false" />
+            <element signature="e#63804#63805#0" expanded="false" />
+            <element signature="e#67128#67129#0" expanded="false" />
+            <element signature="e#67213#67214#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.172414">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
           <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dodola/animview/MetaballView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1548223">
-          <caret line="149" column="32" selection-start-line="149" selection-start-column="32" selection-end-line="149" selection-end-column="32" />
-          <folding>
-            <element signature="e#8213#8214#0" expanded="true" />
-            <element signature="e#8280#8281#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.2724551">
+          <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
