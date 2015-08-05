@@ -140,14 +140,14 @@ public class MetaballView extends View {
 
 
         if (d > maxDistance) {
-            canvas.drawCircle(ball1.centerX(), ball1.centerY(), circle1.radius, paint);
+//            canvas.drawCircle(ball1.centerX(), ball1.centerY(), circle1.radius, paint);
             canvas.drawCircle(ball2.centerX(), ball2.centerY(), circle2.radius, paint);
         } else {
             float scale2 = 1 + SCALE_RATE * (1 - d / maxDistance);
             float scale1 = 1 - SCALE_RATE * (1 - d / maxDistance);
             radius2 *= scale2;
 //            radius1 *= scale1;
-            canvas.drawCircle(ball1.centerX(), ball1.centerY(), radius1, paint);
+//            canvas.drawCircle(ball1.centerX(), ball1.centerY(), radius1, paint);
             canvas.drawCircle(ball2.centerX(), ball2.centerY(), radius2, paint);
 
         }
@@ -257,6 +257,18 @@ public class MetaballView extends View {
         super.onDraw(canvas);
         circle = circlePaths.get(0);
         circle.center[0] = maxLength * mInterpolatedTime;
+
+
+        final Circle circle1 = circlePaths.get(0);
+
+        RectF ball1 = new RectF();
+        ball1.left = circle1.center[0] - circle1.radius;
+        ball1.top = circle1.center[1] - circle1.radius;
+        ball1.right = ball1.left + circle1.radius * 2;
+        ball1.bottom = ball1.top + circle1.radius * 2;
+        canvas.drawCircle(ball1.centerX(), ball1.centerY(), circle1.radius, paint);
+
+
         for (int i = 1, l = circlePaths.size(); i < l; i++) {
             metaball(canvas, i, 0, 0.6f, handle_len_rate, radius * 4f);
         }
