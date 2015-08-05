@@ -15,4 +15,68 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true" />
+
+    <com.dodola.animview.MetaballDebugView
+        android:id="@+id/debug_metaball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/metaball"
+        android:layout_alignRight="@+id/metaball"
+        android:layout_below="@+id/metaball"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/debug_metaball"
+        android:text="Debug test"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="最大间距"
+            android:textColor="@android:color/white" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:max="400" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="贝塞尔曲线角度"
+            android:textColor="@android:color/white" />
+
+        <SeekBar
+            android:id="@+id/seekBar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="200" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="贝塞尔曲线控制点长度比率"
+            android:textColor="@android:color/white" />
+
+        <SeekBar
+            android:id="@+id/seekBar3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="500" />
+    </LinearLayout>
 </RelativeLayout>

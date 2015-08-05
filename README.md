@@ -8,6 +8,12 @@ A 2d metaball loading
 
 ![GIF example](metaball.gif)
 
+##Update
+
+###1. 增加了调试模式，可以调整参数看看对图形的影响
+
+![GIF example](metaball2.gif)
+
 
 
 License

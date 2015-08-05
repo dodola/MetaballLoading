@@ -1,14 +1,10 @@
 package com.dodola.animview;
 
-import android.annotation.TargetApi;
 import android.content.Context;
 import android.graphics.Canvas;
-import android.graphics.Color;
-import android.graphics.LightingColorFilter;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.RectF;
-import android.os.Build;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
@@ -19,39 +15,63 @@ import android.view.animation.Transformation;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Random;
 
 /**
  * Created by dodola on 15/7/27.
  */
-public class MetaballView extends View {
+public class MetaballDebugView extends View {
 
     private Paint paint = new Paint();
-    private float handle_len_rate = 2f;
-    private float radius = 30;
-    private final int ITEM_COUNT = 6;
-    private final int ITEM_DIVIDER = 60;
-    private final float SCALE_RATE = 0.3f;
-    private float maxLength;
-    private ArrayList<Circle> circlePaths = new ArrayList<>();
-    private float mInterpolatedTime;
-    private MoveAnimation wa;
-    private Circle circle;
 
-    public MetaballView(Context context) {
+
+    private float handleLenRate = 2f;
+    private final float radius = 60;
+    private final float SCALE_RATE = 0.3f;
+    private ArrayList<Circle> circlePaths = new ArrayList<>();
+    private float mv = 0.6f;
+    private float maxDistance = radius * 4;
+
+    public MetaballDebugView(Context context) {
         super(context);
         init();
     }
 
-    public MetaballView(Context context, AttributeSet attrs) {
+    public MetaballDebugView(Context context, AttributeSet attrs) {
         super(context, attrs);
         init();
     }
 
-    public MetaballView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public MetaballDebugView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init();
 
+    }
+
+    public float getMv() {
+        return mv;
+    }
+
+    public void setMv(float mv) {
+        this.mv = mv;
+        invalidate();
+    }
+
+    public float getMaxDistance() {
+        return maxDistance;
+    }
+
+    public void setMaxDistance(float maxDistance) {
+        this.maxDistance = maxDistance;
+        invalidate();
+    }
+
+    public float getHandleLenRate() {
+        return handleLenRate;
+    }
+
+    public void setHandleLenRate(float handleLenRate) {
+        this.handleLenRate = handleLenRate;
+        invalidate();
     }
 
     private class Circle {
@@ -68,18 +88,19 @@ public class MetaballView extends View {
         paint.setColor(0xff4db9ff);
         paint.setStyle(Paint.Style.FILL);
         paint.setAntiAlias(true);
+
+    }
+
+    private void initMetaballs() {
         Circle circlePath = new Circle();
-        circlePath.center = new float[]{(radius + ITEM_DIVIDER), radius * (1f + SCALE_RATE)};
-        circlePath.radius = radius / 4 * 3;
+        circlePath.center = new float[]{(radius), radius};
+        circlePath.radius = radius;
         circlePaths.add(circlePath);
 
-        for (int i = 1; i < ITEM_COUNT; i++) {
-            circlePath = new Circle();
-            circlePath.center = new float[]{(radius * 2 + ITEM_DIVIDER) * i, radius * (1f + SCALE_RATE)};
-            circlePath.radius = radius;
-            circlePaths.add(circlePath);
-        }
-        maxLength = (radius * 2 + ITEM_DIVIDER) * ITEM_COUNT;
+        circlePath = new Circle();
+        circlePath.center = new float[]{this.getMeasuredWidth() / 2, this.getMeasuredHeight() / 3};
+        circlePath.radius = radius;
+        circlePaths.add(circlePath);
     }
 
     private float[] getVector(float radians, float length) {
@@ -88,16 +109,6 @@ public class MetaballView extends View {
         return new float[]{
                 x, y
         };
-    }
-
-    private class MoveAnimation extends Animation {
-
-        @Override
-        protected void applyTransformation(float interpolatedTime, Transformation t) {
-            super.applyTransformation(interpolatedTime, t);
-            mInterpolatedTime = interpolatedTime;
-            invalidate();
-        }
     }
 
     /**
@@ -141,19 +152,14 @@ public class MetaballView extends View {
 
 
         if (d > maxDistance) {
-//            canvas.drawCircle(ball1.centerX(), ball1.centerY(), circle1.radius, paint);
             canvas.drawCircle(ball2.centerX(), ball2.centerY(), circle2.radius, paint);
         } else {
             float scale2 = 1 + SCALE_RATE * (1 - d / maxDistance);
-            float scale1 = 1 - SCALE_RATE * (1 - d / maxDistance);
             radius2 *= scale2;
-//            radius1 *= scale1;
-//            canvas.drawCircle(ball1.centerX(), ball1.centerY(), radius1, paint);
             canvas.drawCircle(ball2.centerX(), ball2.centerY(), radius2, paint);
-
         }
 
-//        Log.d("Metaball_radius", "radius1:" + radius1 + ",radius2:" + radius2);
+        Log.d("Metaball_radius", "radius1:" + radius1 + ",radius2:" + radius2);
         if (radius1 == 0 || radius2 == 0) {
             return;
         }
@@ -169,7 +175,7 @@ public class MetaballView extends View {
             u1 = 0;
             u2 = 0;
         }
-//        Log.d("Metaball", "center2:" + Arrays.toString(center2) + ",center1:" + Arrays.toString(center1));
+        Log.d("Metaball", "center2:" + Arrays.toString(center2) + ",center1:" + Arrays.toString(center1));
         float[] centermin = new float[]{center2[0] - center1[0], center2[1] - center1[1]};
 
         float angle1 = (float) Math.atan2(centermin[1], centermin[0]);
@@ -179,7 +185,7 @@ public class MetaballView extends View {
         float angle2a = (float) (angle1 + Math.PI - u2 - (Math.PI - u2 - angle2) * v);
         float angle2b = (float) (angle1 - Math.PI + u2 + (Math.PI - u2 - angle2) * v);
 
-//        Log.d("Metaball", "angle1:" + angle1 + ",angle2:" + angle2 + ",angle1a:" + angle1a + ",angle1b:" + angle1b + ",angle2a:" + angle2a + ",angle2b:" + angle2b);
+        Log.d("Metaball", "angle1:" + angle1 + ",angle2:" + angle2 + ",angle1a:" + angle1a + ",angle1b:" + angle1b + ",angle2a:" + angle2a + ",angle2b:" + angle2b);
 
 
         float[] p1a1 = getVector(angle1a, radius1);
@@ -193,14 +199,14 @@ public class MetaballView extends View {
         float[] p2b = new float[]{p2b1[0] + center2[0], p2b1[1] + center2[1]};
 
 
-//        Log.d("Metaball", "p1a:" + Arrays.toString(p1a) + ",p1b:" + Arrays.toString(p1b) + ",p2a:" + Arrays.toString(p2a) + ",p2b:" + Arrays.toString(p2b));
+        Log.d("Metaball", "p1a:" + Arrays.toString(p1a) + ",p1b:" + Arrays.toString(p1b) + ",p2a:" + Arrays.toString(p2a) + ",p2b:" + Arrays.toString(p2b));
 
         float[] p1_p2 = new float[]{p1a[0] - p2a[0], p1a[1] - p2a[1]};
 
         float totalRadius = (radius1 + radius2);
         float d2 = Math.min(v * handle_len_rate, getLength(p1_p2) / totalRadius);
         d2 *= Math.min(1, d * 2 / (radius1 + radius2));
-//        Log.d("Metaball", "d2:" + d2);
+        Log.d("Metaball", "d2:" + d2);
         radius1 *= d2;
         radius2 *= d2;
 
@@ -208,7 +214,7 @@ public class MetaballView extends View {
         float[] sp2 = getVector(angle2a + pi2, radius2);
         float[] sp3 = getVector(angle2b - pi2, radius2);
         float[] sp4 = getVector(angle1b + pi2, radius1);
-//        Log.d("Metaball", "sp1:" + Arrays.toString(sp1) + ",sp2:" + Arrays.toString(sp2) + ",sp3:" + Arrays.toString(sp3) + ",sp4:" + Arrays.toString(sp4));
+        Log.d("Metaball", "sp1:" + Arrays.toString(sp1) + ",sp2:" + Arrays.toString(sp2) + ",sp3:" + Arrays.toString(sp3) + ",sp4:" + Arrays.toString(sp4));
 
 
         Path path1 = new Path();
@@ -235,84 +241,34 @@ public class MetaballView extends View {
 
 
     //测试用
-//    @Override
-//    public boolean onTouchEvent(MotionEvent event) {
-//        switch (event.getAction()) {
-//            case MotionEvent.ACTION_DOWN:
-//                break;
-//            case MotionEvent.ACTION_MOVE:
-//                Circle circle = circlePaths.get(0);
-//                circle.center[0] = event.getX();
-//                circle.center[1] = event.getY();
-//                invalidate();
-//                break;
-//            case MotionEvent.ACTION_UP:
-//                break;
-//        }
-//
-//        return true;
-//    }
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        Circle circle = circlePaths.get(0);
+        circle.center[0] = event.getX();
+        circle.center[1] = event.getY();
+        invalidate();
+        return true;
+    }
 
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        circle = circlePaths.get(0);
-        circle.center[0] = maxLength * mInterpolatedTime;
+        if (circlePaths.size() == 0) {
+            initMetaballs();
+        }
 
+
+        final Circle circle1 = circlePaths.get(0);
         RectF ball1 = new RectF();
-        ball1.left = circle.center[0] - circle.radius;
-        ball1.top = circle.center[1] - circle.radius;
-        ball1.right = ball1.left + circle.radius * 2;
-        ball1.bottom = ball1.top + circle.radius * 2;
-        canvas.drawCircle(ball1.centerX(), ball1.centerY(), circle.radius, paint);
+        ball1.left = circle1.center[0] - circle1.radius;
+        ball1.top = circle1.center[1] - circle1.radius;
+        ball1.right = ball1.left + circle1.radius * 2;
+        ball1.bottom = ball1.top + circle1.radius * 2;
+        canvas.drawCircle(ball1.centerX(), ball1.centerY(), circle1.radius, paint);
 
-
-        for (int i = 1, l = circlePaths.size(); i < l; i++) {
-            metaball(canvas, i, 0, 0.6f, handle_len_rate, radius * 4f);
+        for (int i = 1; i < circlePaths.size(); i++) {
+            metaball(canvas, i, 0, mv, handleLenRate, maxDistance);
         }
     }
 
-    @Override
-    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        setMeasuredDimension(resolveSizeAndState((int) (ITEM_COUNT * (radius * 2 + ITEM_DIVIDER)), widthMeasureSpec, 0),
-                resolveSizeAndState((int) (2 * radius * 1.4f), heightMeasureSpec, 0));
-    }
-
-
-    private void stopAnimation() {
-        this.clearAnimation();
-        postInvalidate();
-    }
-
-    private void startAnimation() {
-        wa = new MoveAnimation();
-        wa.setDuration(2500);
-        wa.setInterpolator(new AccelerateDecelerateInterpolator());
-        wa.setRepeatCount(Animation.INFINITE);
-        wa.setRepeatMode(Animation.REVERSE);
-        startAnimation(wa);
-    }
-
-    @Override
-    protected void onVisibilityChanged(View changedView, int visibility) {
-        super.onVisibilityChanged(changedView, visibility);
-
-        if (visibility == GONE || visibility == INVISIBLE) {
-            stopAnimation();
-        } else {
-            startAnimation();
-        }
-    }
-
-    @Override
-    protected void onAttachedToWindow() {
-        super.onAttachedToWindow();
-        startAnimation();
-    }
-
-    @Override
-    protected void onDetachedFromWindow() {
-        stopAnimation();
-        super.onDetachedFromWindow();
-    }
 }
