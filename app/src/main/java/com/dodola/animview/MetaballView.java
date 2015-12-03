@@ -33,7 +33,7 @@ public class MetaballView extends View {
     private final int ITEM_DIVIDER = 60;
     private final float SCALE_RATE = 0.3f;
     private float maxLength;
-    private ArrayList<Circle> circlePaths = new ArrayList<>();
+    private ArrayList<Circle> circlePaths = new ArrayList<Circle>();
     private float mInterpolatedTime;
     private MoveAnimation wa;
     private Circle circle;
@@ -99,7 +99,7 @@ public class MetaballView extends View {
             invalidate();
         }
     }
-
+//
     /**
      * @param canvas          画布
      * @param j
@@ -265,8 +265,6 @@ public class MetaballView extends View {
         ball1.right = ball1.left + circle.radius * 2;
         ball1.bottom = ball1.top + circle.radius * 2;
         canvas.drawCircle(ball1.centerX(), ball1.centerY(), circle.radius, paint);
-
-
         for (int i = 1, l = circlePaths.size(); i < l; i++) {
             metaball(canvas, i, 0, 0.6f, handle_len_rate, radius * 4f);
         }

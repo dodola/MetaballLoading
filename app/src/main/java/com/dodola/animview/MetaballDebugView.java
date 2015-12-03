@@ -27,7 +27,7 @@ public class MetaballDebugView extends View {
     private float handleLenRate = 2f;
     private final float radius = 60;
     private final float SCALE_RATE = 0.3f;
-    private ArrayList<Circle> circlePaths = new ArrayList<>();
+    private ArrayList<Circle> circlePaths = new ArrayList<Circle>();
     private float mv = 0.6f;
     private float maxDistance = radius * 4;
 
