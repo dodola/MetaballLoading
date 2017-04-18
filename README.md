@@ -3,14 +3,14 @@ A 2d metaball loading
 
 ----------
 
-##ScreenShot
+## ScreenShot
 
 
 ![GIF example](metaball.gif)
 
-##Update
+## Update
 
-###1. 增加了调试模式，可以调整参数看看对图形的影响
+### 1. 增加了调试模式，可以调整参数看看对图形的影响
 
 ![GIF example](metaball2.gif)
 
